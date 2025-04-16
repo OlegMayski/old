@@ -1,0 +1,76 @@
+.aes-quiz-container {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.result-container {
+    text-align: center;
+}
+
+.result-title {
+    font-size: 24px;
+    color: #333;
+}
+
+.question-container {
+    margin-bottom: 20px;
+}
+
+.question-title {
+    font-size: 22px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.question-text {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.options-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.option {
+    display: flex;
+    align-items: center;
+}
+
+.option-label {
+    margin-left: 8px;
+    font-size: 16px;
+    color: #555;
+}
+
+.next-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.next-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.next-button:hover:not(:disabled) {
+    background-color: #0056b3;
+}

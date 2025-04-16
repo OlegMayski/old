@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "name":"python",
+        "description": "Программирование на Python",
+        "src": "/python",
+        "tags": ["1girl", "black_shirt", "red_eyes", "looking_at_viewer"]
+    },
+    {
+        "id": 2,
+        "name":"linux",
+        "description": "Администрироанин систем  Linux",
+        "src": "/linux",
+        "tags": ["1girl", "black_shirt", "red_eyes", "looking_at_viewer"]
+    },
+    {
+        "id": 3,
+        "name":"aes",
+        "description": "Базовое тестирование на знание АЭС",
+        "src": "/aes",
+        "tags": ["1girl", "black_shirt", "red_eyes", "looking_at_viewer"]
+    }
+]

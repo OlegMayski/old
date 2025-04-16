@@ -1,0 +1,4 @@
+{
+    "tarif1": ["12", false, "12", false],
+    "tarif2": ["24", true, "24", true]
+}

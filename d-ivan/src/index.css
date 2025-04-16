@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: var(--azure-4);
+}
+body {
+    background: #1e1e2c;
+    color: #009be6;
+}
+menu {
+    padding: 6px 20px;
+}
+menu > li {
+    display: inline;
+    line-height: 1.25em;
+}
+menu li a {
+    padding: 6px 10px;
+    font-weight: bold;
+}
+li {
+    list-style-type: none;
+}
+div.sidebar li {
+    list-style-type: none;
+    margin: 0;
+    word-wrap: break-word;
+}
+#post-list {
+    display: flex;
+    margin-right: 1em;
+    padding: 0 20px 30px;
+}
+.sidebar {
+    margin-right: 2em;
+}
+.tag-search {
+    width: 10em;
+}
+.tag-search input {
+    box-sizing: border-box;
+    width: 100%;
+}
+.tag-search button {
+    width: 100%;
+}
+.thumb {
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    margin: 0 10px 20px 0;
+    width: 200px;
+    height: 200px;
+}
+.thumb img {
+    max-width: 100%;
+    max-height: 100%;
+    vertical-align: middle;
+}
+.off {
+    display: flex;
+    justify-content: center;
+    color: gray;
+    width: 15rem;
+    height: 1.4rem;
+    margin: 1rem auto 0 auto;
+}
+.on {
+    width: 15rem;
+    height: 1.4rem;
+    color: green;
+    margin: 1rem auto 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.registration-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.registration-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group input {
+    width: 97%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.submit-button {
+    width: 100%;
+    padding: 10px 0;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.deleteDiv {
+    margin-top: "20px";
+    width: "300px";
+    padding: "10px";
+    border-radius: "5px";
+    text-align: "center";
+}
+.inputStyle {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.buttonStyle {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.message {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+}
+body {
+    /*background-image: url("https://phonoteka.org/uploads/posts/2022-06/1654144446_1-phonoteka-org-p-gachimuchi-oboi-krasivo-1.jpg");
+    background-size: 100% auto;*/
+    font-family: Verdana, Helvetica, sans-serif;
+}

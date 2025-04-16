@@ -1,0 +1,43 @@
+.btns {
+    display: flex;
+    justify-content: center;
+    width: 15rem;
+    margin: 1rem auto 0 auto;
+}
+.btns button {
+    margin-left: 0.2rem;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+.imgCard {
+    width: 40%;
+    border-radius: 10px;
+}
+.cardUser {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.text .card {
+    margin: 0 auto;
+    margin-bottom: 0.8rem;
+    border: 0.2rem solid #ffe4e1;
+    width: 30rem;
+    display: flex;
+    justify-content: center;
+}
+.text h3 {
+    text-align: center;
+}
+
+.text h2 {
+    margin-bottom: 1rem;
+    color: Yellow;
+    text-align: center;
+}
