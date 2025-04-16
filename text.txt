@@ -209,3 +209,4 @@ ORDER BY
 Генерировать эмбеддинги (например, через Python + sentence-transformers) и хранить в отдельной таблице.
 
 Применять Levenshtein-расстояние (через пользовательские функции MySQL).
+https://cloud.mail.ru/public/nwSU/TmHFVzcSE
